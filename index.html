@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>My First Bitstarter</title>
+        <title>The iList Project</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -63,6 +63,14 @@
             }
             
             /* Video Pitch and Action */
+            .ornament{
+                border-left: 2px black solid;
+                border-right: 2px black solid;
+            }
+            .list{
+                font-size: 20px;
+                padding-top: 2%;
+            }
             .pitch{
                 padding: 2.5% 0%;
             }
@@ -73,7 +81,7 @@
             .order, .social, .statistics{
                 padding: 2% 0%;
             }
-            .video, .thermometer, .order, .social, .statistics{
+            .video, .thermometer, .order, .social, .statistics, .center{
                 text-align: center;
             }
             .statistics h3, .statistics p{
@@ -124,7 +132,7 @@
             </div>
         </div>
                   
-        <div class="container">
+        <div class="container ornament">
             <div class="row-fluid heading">
                 <div class="span12">
                     <h1>iList</h1>
@@ -132,7 +140,7 @@
             </div>
             <div class="row-fluid subheading">
                 <div class="span12">
-                    <p class="lead">The ultimate APP to remember EVERYTHING!</p>
+                    <p class="lead">The ultimate APP to organize your life!</p>
                 </div>
             </div>
             <div class="row-fluid pitch">
@@ -177,32 +185,38 @@
                     </div>
                 </div>
             </div>
-            
+        </div>
+        
+        <div class="container ornament">   
             <div class="row-fluid section1">
                 <div class="span5 offset1 asset">
                     <img class="img-polaroid" src="http://placehold.it/480x300">
                 </div>
                 <div class="span5 copy">
-                    <p>Hi everybody!</p>
-                    <p>In this section, we will explain what's our APP for and
-                    why we think it's AWESOME!
+                    <h3>Welcome to iList!</h3>
+                    <p>iList is a mobile App which will help you to organize your life in an easier way.
+                    It will allow you to share common tasks with other people and to be more efficient overall.
                     </p>
+                    <p class="center">Divide and Conquer! </p>
                 </div>
             </div>
             <div class="row-fluid section2">
                 <div class="span5 offset1 copy copy-right">
-                    <p>CHARACTERISTICS<p>
+                    <h3>FEATURES</h3>
                     <ul>
-                        <li>One thing</li>
-                        <li>Another one</li>
-                        <li>...</li>
+                        <li class="list">Create as many lists as you want</li>
+                        <li class="list">Create groups of contacts</li>
+                        <li class="list">Interact with a simple and intuitive GUI</li>
+                        <li class="list">And much more!!</li>
                     </ul>
                 </div>  
                 <div class="span5 asset">
                     <img class="img-polaroid" src="http://placehold.it/480x300">
                 </div>
             </div>
-            
+        </div>
+        
+        <div class="container">
             <div class="row-fluid faq">
                 <div class="span10 offset1">
                     <h3>FAQ</h3>
@@ -210,24 +224,24 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                    What does FAQ stand for?
+                                   Which OS will iList support?
                                 </a>
                             </div>
                             <div id="collapseOne" class="accordion-body collapse">
                                 <div class="accordion-inner">
-                                    Frequently Asked Question.
+                                    For now, we are focusing on Android but later we are planning to expand to iOS.
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                    What's a Frequently Asked Question?
+                                    Will iList be a community app?
                                 </a>
                             </div>
                             <div id="collapseTwo" class="accordion-body collapse">
                                 <div class="accordion-inner">
-                                    A question which is commonly asked by users.
+                                    Of course! That's the main idea behind this project.
                                 </div>
                             </div>
                         </div>
@@ -241,7 +255,9 @@
                     </a>, without all the cruft that would otherwise be put at the bottom of the page.</p>
                 </div>
             </div>
-            
         </div>    
+
    </body>
 </html>
+
+
